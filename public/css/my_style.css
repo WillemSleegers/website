@@ -6,6 +6,10 @@ html body {
 
 /* Home */
 
+.intro {
+    transform: translateY(15vh);
+}
+
 .intro > h1 {
   font-size: 5.9vw;
 }
