@@ -21,6 +21,3 @@ blog_title <- "My LaTeX dissertation template"
 tags <- c("LaTeX", "dissertation")
 new_post(blog_title, tags = tags, subdir = "posts")
 
-# Deploy changes to github --------------------------------------------------
-
-system("bash deploy.sh")

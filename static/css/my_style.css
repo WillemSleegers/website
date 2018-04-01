@@ -32,3 +32,8 @@ html body {
   text-decoration: none;
   padding: 3px 6px 3px 6px;
 }
+
+.item {
+  width: 50vw;
+  text-align: left;
+}

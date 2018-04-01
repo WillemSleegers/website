@@ -11,7 +11,7 @@ googleAnalytics = ""
     # profilePic = "img/profile.png"
     description = "My personal website"
     githubUsername = "#"
-    accent = "lightslategray"
+    accent = "steelblue"
     showBorder = true
     backgroundColor = "white"
     font = "FontAwesome"
@@ -41,7 +41,7 @@ googleAnalytics = ""
     weight = 4
 
 [[menu.main]]
-    url = "/talks/"
+    url = "/talk/"
     name = "Talks"
     weight = 5
 

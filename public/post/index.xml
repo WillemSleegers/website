@@ -6,54 +6,56 @@
     <description>Recent content in Posts on Willem Sleegers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>My LaTeX dissertation template</title>
+      <link>/post/my-latex-dissertation-template/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>/post/my-latex-dissertation-template/</guid>
+      <description>I wrote my PhD dissertation in LaTeX, assuming it would be easier to use (in the long run!) compared to a standard text editor like Pages or Word. Pages does not support all of the functions needed for a beautiful dissertation (step up your game, Apple) and I dislike working in Word. Preferably, I would have written my dissertation in Markdown, but that also seems too limited for a dissertation. Hence, LaTeX.</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Introducing tidystats</title>
+      <link>/post/introducing-tidystats/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>/post/introducing-tidystats/</guid>
+      <description>I am very excited to announce my first ever R package, called tidystats. Its function is to create a single text file containing the output of statistical models. This will enable researchers to store the results of their analyses not just in their manuscripts, but also in an organized file separate from their manuscript that they can freely share with anyone. In this blog post I will go into why I think it is useful to do this and how tidystats works conceptually.</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Creating a trial-based time variable</title>
+      <link>/post/creating-a-trial-based-time-variable/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>/post/creating-a-trial-based-time-variable/</guid>
+      <description>One of the first issues I ran into when starting to analyze eye tracker data was that the raw data does not contain a trial-based time variable. I expected that the timestamp variable would be a variable that starts at 0 when a trial begins and that it would keep adding up at a rate equal to the sampling frequency, until the end of the trial. Instead, you are likely to get a timestamp variable that looks like a random set of numbers, as shown here:</description>
     </item>
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Importing multiple data files</title>
+      <link>/post/importing-multiple-data-files/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>/post/importing-multiple-data-files/</guid>
+      <description>Combining multiple data files is a regular problem for certain researchers, including myself. In my eye tracker research I collect data for each participant separately. This means that when I want to start preparing my data, I first need to combine the data into one large data frame.
+There are many ways to combine separate data files in R. You can read in each file separately and store the result in their own data frame, after which you merge them together.</description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>/post/2017-05-25-first-post/</link>
+      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-05-25-first-post/</guid>
+      <description>This is the first post of my new website, created with the amazing blogdown. Blogdown uses R and Hugo to create a website with blogging functionality. There are various themes to choose from, and this website uses a customized version of the internet-weblog theme. If you&amp;rsquo;re interested in the code for this website, let me know!
+EDIT: I have since changed the theme to the Minimal theme.</description>
     </item>
     
   </channel>
